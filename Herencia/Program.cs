@@ -4,6 +4,9 @@ using Herencia;
 //instacia de objeto
 Vertebrado vertebrado = new Vertebrado();
 Vertebrado vertebradoDos = new Vertebrado();
+Invertebrado invertebrado = new Invertebrado();
+Invertebrado invertebradoDos = new Invertebrado();
+
 
 vertebrado.nombre = "Gato";
 vertebrado.color = "negro";
@@ -31,6 +34,16 @@ vertebradoDos.esCarnivoro = true;
 
 vertebradoDos.imprimir();
 
+Console.WriteLine();
 
+invertebrado.nombre = "Abeja";
+invertebrado.color = "negro con amarillo";
+invertebrado.tamanio = "pequeña";
+invertebrado.familia = "reina";
+invertebrado.tipo = "isecto";
+invertebrado.tienePatas = true;
+invertebrado.tieneConcha = true;
+
+invertebrado.imprimir();
 
 

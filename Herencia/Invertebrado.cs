@@ -18,7 +18,7 @@ namespace Herencia
 
             Console.WriteLine("Nombre: " + nombre);
             Console.WriteLine("Color: " + color);
-            Console.WriteLine("Tamañio: " + tamanio);
+            Console.WriteLine("Tamaño: " + tamanio);
             Console.WriteLine("Familia: " + familia);
             Console.WriteLine("Tipo: " + tipo);
             Console.WriteLine("Tiene Patas: " + tienePatas);
