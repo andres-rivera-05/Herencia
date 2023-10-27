@@ -46,4 +46,14 @@ invertebrado.tieneConcha = true;
 
 invertebrado.imprimir();
 
+Console.WriteLine();
 
+invertebradoDos.nombre = "araña";
+invertebradoDos.color = "negro";
+invertebradoDos.tamanio = "grande";
+invertebradoDos.familia = "Tarantula";
+invertebradoDos.tipo = "isecto";
+invertebradoDos.tienePatas = true;
+invertebradoDos.tieneConcha = false;
+
+invertebradoDos.imprimir();
